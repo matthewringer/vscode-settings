@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "shift+cmd+c",             "command": "workbench.action.terminal.focus",
+                                        "when": "!terminalFocus" },
+    { "key": "shift+cmd+n",             "command": "workbench.action.terminal.focusNext",
+                                        "when": "terminalFocus" },
+    { "key": "shift+cmd+p",             "command": "workbench.action.terminal.focusPrevious",
+                                        "when": "terminalFocus" },
+    { "key": "shift+cmd+k",             "command": "workbench.action.terminal.kill",
+                                        "when": "terminalFocus"}
+]
